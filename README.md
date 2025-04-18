@@ -4,20 +4,20 @@ This project implements a U-NET architecture for automatic kidney segmentation f
 
 ## Project Structure
 
-U-NET_kidney_segmentation/
-├── data/
-│ ├── raw/ # For storing raw MRI images
-│ └── processed/ # For preprocessed data
-├── models/
-│ ├── init.py
-│ └── unet.py # U-NET implementation
-├── utils/
-│ ├── init.py
-│ ├── data_loader.py # Data loading and preprocessing
-│ └── visualization.py # Visualization utilities
-├── train.py # Training script
-├── predict.py # Prediction script
-└── requirements.txt # Project dependencies
+    U-NET_kidney_segmentation/
+    ├── data/
+    │ ├── raw/ # For storing raw MRI images
+    │ └── processed/ # For preprocessed data
+    ├── models/
+    │ ├── init.py
+    │ └── unet.py # U-NET implementation
+    ├── utils/
+    │ ├── init.py
+    │ ├── data_loader.py # Data loading and preprocessing
+    │ └── visualization.py # Visualization utilities
+    ├── train.py # Training script
+    ├── predict.py # Prediction script
+    └── requirements.txt # Project dependencies
 
 ## Installation
 
